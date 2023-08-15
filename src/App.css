@@ -1,0 +1,99 @@
+/* font-family: 'Caladea', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+ *{
+ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+
+  
+ }
+ section{
+  padding: 3% 0;
+ }
+ section{
+  margin: 2% 0;
+ }
+
+ 
+ .heading{
+ text-align: left;
+ margin: 10px 0;
+  font-size:1.6rem ;
+  font-weight: 500 !important;
+  
+}
+.pragraph{
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+   
+
+}
+.heading h1{
+   font-size: 2.2rem;
+   margin-bottom: 0 !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500 !important;
+
+text-transform: capitalize;
+ }
+ .cng{
+  color:#00b074;
+ }
+ 
+ /* .accordion {
+ 
+  width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0px 2px 17px -12px black;
+}
+* {
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background: gray; */
+ h1,h2{
+  margin-bottom: 0 !important;
+ }
+
+ @media screen and (max-width:576px) {
+
+  html{
+    font-size: 95%;
+  }
+  .heading{
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .heading h1{
+ 
+      font-size: 1.5rem;
+      margin-bottom: 0 !important;
+     font-family: 'Roboto', sans-serif !important;
+     font-weight: 300 !important;
+     text-transform: capitalize;
+   
+   
+    
+  }
+  .pragraph{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+     
+  
+  }
+  .contact_icon li {
+    font-size: 1.4rem;
+    margin-bottom: 10px !important;
+}
+ }

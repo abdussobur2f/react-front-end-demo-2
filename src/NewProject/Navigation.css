@@ -1,0 +1,53 @@
+.nav{
+    background-color: #0C1523;
+     
+    display: flex;
+    align-items: center;
+}
+.navd_roup{
+    color: brown;
+ } 
+.nav-link {
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+transition: .4s;
+position: relative;
+padding: 0 !important;
+ 
+ }
+.nav-link:hover {
+     color: #5fd !important;
+
+ }
+.nav-link:hover::before {
+     content: '';
+     width: 99%;
+     height: 2px;
+     background-color: #5fd;
+     position: absolute;
+     bottom: 0px;
+     left: 0;
+     display: inline-block;
+
+ }
+  .fontAwesomeicon  {
+    border: none !important;
+    color: aqua;
+    text-transform: uppercase;
+ }
+ .active{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ @media screen and (max-width:576px) {
+    .nav-link{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: inline-flex;
+    }
+    
+ }
